@@ -46,7 +46,7 @@ Generated project has 2 useful tasks aliases: `server` and `build`
 It compiles requested twig template and responses with pure html.  
 Rule for urls is simple: for example url `http://localhost:3001/second` compiles `./views/Second/index.html.twig`, `http://localhost:3001/second/inner` compiles `./views/Second/inner.html.twig` and so on.  
 
-`build` alias creates `build` folder, which contains `html` folder with static resources and compiled html files, `root` folder with files^ that should be placed in root folder of production server (for now its package.json, bower.json and .bowerrc files), and `views` folder with all twig templates (useful for projects uses Twig template, for example Symfony framework projects).
+`build` alias creates `build` folder, which contains `html` folder with static resources and compiled html files, `root` folder with files, that should be placed in root folder of production server (for now its package.json, bower.json and .bowerrc files), and `views` folder with all twig templates (useful for projects uses Twig template, for example Symfony framework projects).
 
 ## Data for templates
 `data.json` file contains data for templates for both tasks.
