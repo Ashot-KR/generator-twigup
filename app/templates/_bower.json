@@ -1,0 +1,10 @@
+{
+  "name": "<%= _.slugify(appname) %>",
+  "private": true,
+  "dependencies": {
+    "normalize-css": "~3.0.2",
+    "jquery": "~1.11.2",
+    "requirejs": "~2.1.16"
+  }
+}
+

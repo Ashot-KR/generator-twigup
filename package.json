@@ -1,0 +1,39 @@
+{
+  "name": "generator-twigup",
+  "version": "0.2.0",
+  "description": "Yeoman generator for creating html markup using Twig template engine.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "Ashot-KR/generator-twigup",
+  "author": {
+    "name": "Poluektov Dmitriy",
+    "email": "dmitry.a@k-r-w.ru",
+    "url": "https://github.com/Ashot-KR"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+	"twig",
+	"symfony",
+    "twig.js"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.17.0",
+    "chalk": "^0.5.0",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}

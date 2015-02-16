@@ -1,0 +1,12 @@
+{% extends "../_layouts/layout.html.twig" %}
+
+{% block content %}
+    <p>It`s a secondary page. It has an <a href="/second/inner">inner</a> page!</p>
+
+	<p>Some repeatable partials: </p>
+    {% for i in 0..10 %}
+        {% include "../_partials/partial.html.twig" %}
+    {% endfor %}
+	<br />
+
+{% endblock %}
