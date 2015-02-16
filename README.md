@@ -1,6 +1,6 @@
 # generator-twigup
 
-Twigup is [Yeoman](http://yeoman.io) generator for creating Html markup using Twig template engine ([twig.js](https://github.com/justjohn/twig.js) implementation).
+TwigUp is [Yeoman](http://yeoman.io) generator for creating Html markup using Twig template engine ([twig.js](https://github.com/justjohn/twig.js) implementation).
 
 ## Getting Started
 Make sure you have Yeoman installed:
@@ -42,7 +42,7 @@ Generator will install jQuery, Require.js and normalize.css.
 
 ## Grunt tasks
 Generated project has 2 useful tasks aliases: `server` and `build`  
-`server` alias launches [express](http://expressjs.com/) server on port `3001` (you can change port number in Gruntfile.js).  
+`server` alias launches [express](http://expressjs.com/) server on port `3000` (you can change port number in Gruntfile.js).  
 It compiles requested twig template and responses with pure html.  
 Rule for urls is simple: for example url `http://localhost:3001/second` compiles `./views/Second/index.html.twig`, `http://localhost:3001/second/inner` compiles `./views/Second/inner.html.twig` and so on.  
 

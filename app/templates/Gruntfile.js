@@ -24,7 +24,7 @@ module.exports = function (grunt) {
 		express: {
 			server: {
 				options: {
-					port: 3001,
+					port: 3000,
 					server: 'server.js'
 				}
 			}
