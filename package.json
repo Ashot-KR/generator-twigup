@@ -21,8 +21,8 @@
   ],
   "keywords": [
     "yeoman-generator",
-	"twig",
-	"symfony",
+    "twig",
+    "symfony",
     "twig.js"
   ],
   "dependencies": {
